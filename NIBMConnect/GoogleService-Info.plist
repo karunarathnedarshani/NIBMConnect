@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>403463092267-6ffrpr7hkg1a972hca3pamji6veuu5r4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.403463092267-6ffrpr7hkg1a972hca3pamji6veuu5r4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA_0HMj5zJY7JR2L2QREiv-oQNWSgIc5T0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>403463092267</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.nibm.NIBMConnect</string>
+	<key>PROJECT_ID</key>
+	<string>cw-ios</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cw-ios.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:403463092267:ios:9d24b73327d5b9e6</string>
+	<key>DATABASE_URL</key>
+	<string>https://cw-ios.firebaseio.com</string>
+</dict>
+</plist>

@@ -8,20 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		284A658A228C718F00D671C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284A6589228C718F00D671C7 /* AppDelegate.swift */; };
-		284A658C228C718F00D671C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284A658B228C718F00D671C7 /* ViewController.swift */; };
 		284A658F228C718F00D671C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284A658D228C718F00D671C7 /* Main.storyboard */; };
 		284A6591228C719100D671C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284A6590228C719100D671C7 /* Assets.xcassets */; };
 		284A6594228C719100D671C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284A6592228C719100D671C7 /* LaunchScreen.storyboard */; };
+		288F165A228FC8C300D4EF95 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288F1659228FC8C300D4EF95 /* LandingViewController.swift */; };
+		288F165C228FC90000D4EF95 /* TempAppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288F165B228FC90000D4EF95 /* TempAppData.swift */; };
+		288F165E228FCACF00D4EF95 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288F165D228FCACF00D4EF95 /* Home.storyboard */; };
+		288F1660228FCE3000D4EF95 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288F165F228FCE3000D4EF95 /* ProfileViewController.swift */; };
+		288F1662228FCE6D00D4EF95 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288F1661228FCE6D00D4EF95 /* HomeViewController.swift */; };
+		288F1664228FD15D00D4EF95 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288F1663228FD15D00D4EF95 /* LoginViewController.swift */; };
+		288F1666228FD34000D4EF95 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288F1665228FD34000D4EF95 /* ForgotPasswordViewController.swift */; };
+		288F1668228FDB8200D4EF95 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 288F1667228FDB8200D4EF95 /* GoogleService-Info.plist */; };
+		5DDE9E5153DFF8D987B1BAC2 /* Pods_NIBMConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C3971D890E680D5DD22690 /* Pods_NIBMConnect.framework */; };
+		E449CDE6228FF3F40087C6F0 /* AddHomeWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449CDE5228FF3F40087C6F0 /* AddHomeWorkViewController.swift */; };
+		E449CDE8228FF4560087C6F0 /* HomeWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449CDE7228FF4560087C6F0 /* HomeWork.swift */; };
+		E449CDEA228FF7B50087C6F0 /* HomeWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449CDE9228FF7B50087C6F0 /* HomeWorkViewController.swift */; };
+		E449CDED228FF8B00087C6F0 /* HomeWorkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449CDEC228FF8B00087C6F0 /* HomeWorkCell.swift */; };
+		E449CDEF228FFE700087C6F0 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449CDEE228FFE700087C6F0 /* FriendTableViewCell.swift */; };
+		E449CDF3229000100087C6F0 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449CDF2229000100087C6F0 /* FriendsViewController.swift */; };
+		E449CDF5229003200087C6F0 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449CDF4229003200087C6F0 /* Friend.swift */; };
+		E45F2B5922902F0300BB662C /* message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F2B5822902F0300BB662C /* message.swift */; };
+		E491C5862290100D00E0F2D2 /* PersonalDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E491C5852290100D00E0F2D2 /* PersonalDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		284A6586228C718F00D671C7 /* NIBMConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIBMConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		284A6589228C718F00D671C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		284A658B228C718F00D671C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		284A658E228C718F00D671C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		284A6590228C719100D671C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		284A6593228C719100D671C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		284A6595228C719100D671C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		288F1659228FC8C300D4EF95 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		288F165B228FC90000D4EF95 /* TempAppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempAppData.swift; sourceTree = "<group>"; };
+		288F165D228FCACF00D4EF95 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		288F165F228FCE3000D4EF95 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		288F1661228FCE6D00D4EF95 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		288F1663228FD15D00D4EF95 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		288F1665228FD34000D4EF95 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		288F1667228FDB8200D4EF95 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		400951FF67AA2643CE3C5E0C /* Pods-NIBMConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBMConnect.debug.xcconfig"; path = "Target Support Files/Pods-NIBMConnect/Pods-NIBMConnect.debug.xcconfig"; sourceTree = "<group>"; };
+		C4C3971D890E680D5DD22690 /* Pods_NIBMConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBMConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E449CDE5228FF3F40087C6F0 /* AddHomeWorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHomeWorkViewController.swift; sourceTree = "<group>"; };
+		E449CDE7228FF4560087C6F0 /* HomeWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork.swift; sourceTree = "<group>"; };
+		E449CDE9228FF7B50087C6F0 /* HomeWorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorkViewController.swift; sourceTree = "<group>"; };
+		E449CDEC228FF8B00087C6F0 /* HomeWorkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorkCell.swift; sourceTree = "<group>"; };
+		E449CDEE228FFE700087C6F0 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		E449CDF2229000100087C6F0 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		E449CDF4229003200087C6F0 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		E45F2B5822902F0300BB662C /* message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = message.swift; sourceTree = "<group>"; };
+		E491C5852290100D00E0F2D2 /* PersonalDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetailsViewController.swift; sourceTree = "<group>"; };
+		FA71AD5F49A2A2C0EE7B2461 /* Pods-NIBMConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBMConnect.release.xcconfig"; path = "Target Support Files/Pods-NIBMConnect/Pods-NIBMConnect.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DDE9E5153DFF8D987B1BAC2 /* Pods_NIBMConnect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +77,8 @@
 			children = (
 				284A6588228C718F00D671C7 /* NIBMConnect */,
 				284A6587228C718F00D671C7 /* Products */,
+				7A7F30828C30031041B99D5B /* Pods */,
+				5B5C2871BBE7FB2F56ECE9A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +93,87 @@
 		284A6588228C718F00D671C7 /* NIBMConnect */ = {
 			isa = PBXGroup;
 			children = (
+				288F1658228FC54800D4EF95 /* Helpers */,
+				288F1657228FC54300D4EF95 /* Models */,
+				288F1656228FC53700D4EF95 /* ViewControllers */,
+				288F1655228FC52700D4EF95 /* Stroyboards */,
 				284A6589228C718F00D671C7 /* AppDelegate.swift */,
-				284A658B228C718F00D671C7 /* ViewController.swift */,
-				284A658D228C718F00D671C7 /* Main.storyboard */,
 				284A6590228C719100D671C7 /* Assets.xcassets */,
 				284A6592228C719100D671C7 /* LaunchScreen.storyboard */,
+				288F1667228FDB8200D4EF95 /* GoogleService-Info.plist */,
 				284A6595228C719100D671C7 /* Info.plist */,
 			);
 			path = NIBMConnect;
+			sourceTree = "<group>";
+		};
+		288F1655228FC52700D4EF95 /* Stroyboards */ = {
+			isa = PBXGroup;
+			children = (
+				284A658D228C718F00D671C7 /* Main.storyboard */,
+				288F165D228FCACF00D4EF95 /* Home.storyboard */,
+			);
+			path = Stroyboards;
+			sourceTree = "<group>";
+		};
+		288F1656228FC53700D4EF95 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E449CDEB228FF8950087C6F0 /* Cell */,
+				288F1659228FC8C300D4EF95 /* LandingViewController.swift */,
+				288F165F228FCE3000D4EF95 /* ProfileViewController.swift */,
+				288F1661228FCE6D00D4EF95 /* HomeViewController.swift */,
+				288F1663228FD15D00D4EF95 /* LoginViewController.swift */,
+				288F1665228FD34000D4EF95 /* ForgotPasswordViewController.swift */,
+				E449CDE5228FF3F40087C6F0 /* AddHomeWorkViewController.swift */,
+				E449CDE9228FF7B50087C6F0 /* HomeWorkViewController.swift */,
+				E449CDF2229000100087C6F0 /* FriendsViewController.swift */,
+				E491C5852290100D00E0F2D2 /* PersonalDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		288F1657228FC54300D4EF95 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E449CDE7228FF4560087C6F0 /* HomeWork.swift */,
+				E449CDF4229003200087C6F0 /* Friend.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		288F1658228FC54800D4EF95 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				288F165B228FC90000D4EF95 /* TempAppData.swift */,
+				E45F2B5822902F0300BB662C /* message.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5B5C2871BBE7FB2F56ECE9A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4C3971D890E680D5DD22690 /* Pods_NIBMConnect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A7F30828C30031041B99D5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				400951FF67AA2643CE3C5E0C /* Pods-NIBMConnect.debug.xcconfig */,
+				FA71AD5F49A2A2C0EE7B2461 /* Pods-NIBMConnect.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E449CDEB228FF8950087C6F0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E449CDEC228FF8B00087C6F0 /* HomeWorkCell.swift */,
+				E449CDEE228FFE700087C6F0 /* FriendTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 284A6598228C719100D671C7 /* Build configuration list for PBXNativeTarget "NIBMConnect" */;
 			buildPhases = (
+				4346677E103A1A35DF58C666 /* [CP] Check Pods Manifest.lock */,
 				284A6582228C718F00D671C7 /* Sources */,
 				284A6583228C718F00D671C7 /* Frameworks */,
 				284A6584228C718F00D671C7 /* Resources */,
+				B0336051D9228887F413C0A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +237,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				284A6594228C719100D671C7 /* LaunchScreen.storyboard in Resources */,
+				288F165E228FCACF00D4EF95 /* Home.storyboard in Resources */,
+				288F1668228FDB8200D4EF95 /* GoogleService-Info.plist in Resources */,
 				284A6591228C719100D671C7 /* Assets.xcassets in Resources */,
 				284A658F228C718F00D671C7 /* Main.storyboard in Resources */,
 			);
@@ -130,12 +246,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4346677E103A1A35DF58C666 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NIBMConnect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0336051D9228887F413C0A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NIBMConnect/Pods-NIBMConnect-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NIBMConnect/Pods-NIBMConnect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		284A6582228C718F00D671C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				284A658C228C718F00D671C7 /* ViewController.swift in Sources */,
+				288F1664228FD15D00D4EF95 /* LoginViewController.swift in Sources */,
+				E491C5862290100D00E0F2D2 /* PersonalDetailsViewController.swift in Sources */,
+				E449CDF5229003200087C6F0 /* Friend.swift in Sources */,
+				288F1666228FD34000D4EF95 /* ForgotPasswordViewController.swift in Sources */,
+				E449CDF3229000100087C6F0 /* FriendsViewController.swift in Sources */,
+				E449CDEA228FF7B50087C6F0 /* HomeWorkViewController.swift in Sources */,
+				E449CDEF228FFE700087C6F0 /* FriendTableViewCell.swift in Sources */,
+				288F1662228FCE6D00D4EF95 /* HomeViewController.swift in Sources */,
+				288F165C228FC90000D4EF95 /* TempAppData.swift in Sources */,
+				288F165A228FC8C300D4EF95 /* LandingViewController.swift in Sources */,
+				E449CDED228FF8B00087C6F0 /* HomeWorkCell.swift in Sources */,
+				288F1660228FCE3000D4EF95 /* ProfileViewController.swift in Sources */,
+				E449CDE6228FF3F40087C6F0 /* AddHomeWorkViewController.swift in Sources */,
+				E45F2B5922902F0300BB662C /* message.swift in Sources */,
+				E449CDE8228FF4560087C6F0 /* HomeWork.swift in Sources */,
 				284A658A228C718F00D671C7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,11 +467,13 @@
 		};
 		284A6599228C719100D671C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400951FF67AA2643CE3C5E0C /* Pods-NIBMConnect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BS3BRYCAH;
 				INFOPLIST_FILE = NIBMConnect/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,17 +481,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nibm.NIBMConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		284A659A228C719100D671C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA71AD5F49A2A2C0EE7B2461 /* Pods-NIBMConnect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BS3BRYCAH;
 				INFOPLIST_FILE = NIBMConnect/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +501,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nibm.NIBMConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
