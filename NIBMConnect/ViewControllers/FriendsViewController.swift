@@ -90,6 +90,19 @@ extension FriendsViewController: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        
+        let rotationTransform = CATransform3DTranslate(CATransform3DIdentity, -500, 10, 0)
+        cell.layer.transform = rotationTransform
+        cell.alpha = 0.5
+        
+        UIView.animate(withDuration: 1.0) {
+            cell.layer.transform = CATransform3DIdentity
+            cell.alpha = 1.0
+        }
+        
+    }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         Student = friendList[indexPath.row]

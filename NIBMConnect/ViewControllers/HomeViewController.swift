@@ -18,9 +18,6 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    
-    
-    
     func authenticateUser() {
         let myContext = LAContext()
         let myLocalizedReasonString = "NiBM Connect Need Biometrics to Proceed"
@@ -32,21 +29,17 @@ class HomeViewController: UIViewController {
                     
                     DispatchQueue.main.async {
                         if success {
-                            // User authenticated successfully, take appropriate action
                             self.performSegue(withIdentifier: "goToProfile", sender: self)
                             
                         } else {
-                            
                             let err = evaluateError?.localizedDescription
                             print(err)
                         }
                     }
                 }
             } else {
-                print("Sorry!!.. Could not evaluate policy.")
             }
         } else {
-            print("Sorry!!.. Could not evaluate policy.")
         }
     }
     
